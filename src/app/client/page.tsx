@@ -1,6 +1,6 @@
 // app/client/page.tsx
 import Link from 'next/link';
-import ClientDossierDemo from "@/app/components/ClientDossier";
+import ClientDossierDemo from "@/app/components/dossier/ClientDossier";
 
 export default function ClientPage() {
 

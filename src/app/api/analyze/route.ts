@@ -1,9 +1,8 @@
-// app/api/analyze/route.ts
 
 // app/api/analyze/route.ts
 
 import { NextResponse } from 'next/server';
-import {analyzeClient} from "@/app/lib/ai/orchestrator";
+import {analyzeClient} from "@/app/lib/ai/hr/orchestrator";
 
 export async function POST(req: Request) {
     try {

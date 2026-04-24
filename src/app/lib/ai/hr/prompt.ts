@@ -1,6 +1,8 @@
 // lib/ai/prompt.ts
 
-export function buildPrompt(entries: any[]) {
+import {DossierEntry} from "@/app/types/dossier";
+
+export function buildPrompt(entries: DossierEntry[]) {
     const formatted = entries
         .map(
             (e) =>

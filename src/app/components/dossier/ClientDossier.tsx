@@ -1,9 +1,11 @@
+//components/ClientDossier
 'use client';
 
 import React, { useState } from 'react';
 import {LuLightbulb, LuSparkles} from 'react-icons/lu';
-import {AIInsights, DossierEntry} from "@/app/types/dossier";
+import { DossierEntry} from "@/app/types/dossier";
 import {dossierEntries} from "@/app/mock/dossier2";
+import {AIInsights} from "@/app/lib/ai/hr/types";
 
 
 export default function ClientDossierDemo() {
